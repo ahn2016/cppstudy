@@ -91,7 +91,7 @@ void Reservationchange() {
         int newTrain, newCol, newSeat;
 
         while (true) {
-            cout << "현재 좌석과 바꿀 좌석을 입력하세요\n현재 좌석(H호차 N열 M좌석) : ";
+            cout << "현재 좌석과 바꿀 좌석을 입력하세요\n현재 좌석(H호차 N열 M좌석): ";
             cin >> currentTrain >> currentCol >> currentSeat;
             currentTrain--; currentCol--; currentSeat--;
 
